@@ -1,0 +1,670 @@
+{
+  "checkpoint": "runs/boundary_dist_sdoct/best_model_phase1.pth",
+  "phase": 1,
+  "calib_patients": [
+    "patient_00",
+    "patient_02",
+    "patient_03",
+    "patient_05"
+  ],
+  "test_patients": [
+    "patient_01",
+    "patient_04"
+  ],
+  "upper_lower_error_correlation": {
+    "all": {
+      "pearson_r": 0.18040904650569148,
+      "pearson_p": 0.0,
+      "n": 83327
+    },
+    "abnormal": {
+      "pearson_r": 0.5450805533430385,
+      "pearson_p": 0.0,
+      "n": 42068
+    },
+    "normal": {
+      "pearson_r": -0.022232660314002315,
+      "pearson_p": 6.290318710370617e-06,
+      "n": 41259
+    }
+  },
+  "temperature_scale_pooled": {
+    "upper_boundary": 0.6497711920705179,
+    "lower_boundary": 1.2647931882896257,
+    "thickness": 0.9881561224910844
+  },
+  "pixel_to_micron": null,
+  "coverage": {
+    "upper_boundary": {
+      "all": {
+        "n_columns": 41477,
+        "n_scans": 84,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.9566506738674446,
+            "mean_halfwidth": 3.943491080565622,
+            "n": 41477
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.9901632229910553,
+            "mean_halfwidth": 5.81422592603634,
+            "n": 41477
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.9976613544856185,
+            "mean_halfwidth": 9.61684829878209,
+            "n": 41477
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.999156158835017,
+            "mean_halfwidth": 11.459181535400093,
+            "n": 41477
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.23619149473533171,
+            "observed_coverage": 0.5439159052004725,
+            "mean_halfwidth": 1.3809239540311309,
+            "n": 41477
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.36034002416463734,
+            "observed_coverage": 0.7502230151650312,
+            "mean_halfwidth": 2.106774299907372,
+            "n": 41477
+          },
+          {
+            "level": 0.9,
+            "multiplier": 0.6399793766094816,
+            "observed_coverage": 0.9464040311497939,
+            "mean_halfwidth": 3.74172174250499,
+            "n": 41477
+          },
+          {
+            "level": 0.95,
+            "multiplier": 0.7922758105059325,
+            "observed_coverage": 0.9780842394580129,
+            "mean_halfwidth": 4.632142432364267,
+            "n": 41477
+          }
+        ],
+        "ece_uncalibrated": 0.316410616917683,
+        "ece_calibrated": 0.03991114923553066
+      },
+      "abnormal": {
+        "n_columns": 20567,
+        "n_scans": 42,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.9522536101521856,
+            "mean_halfwidth": 4.291860751387791,
+            "n": 20567
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.9878932270141488,
+            "mean_halfwidth": 6.3278571047452505,
+            "n": 20567
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.9959157874264598,
+            "mean_halfwidth": 10.466404747053025,
+            "n": 20567
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.9982982447610249,
+            "mean_halfwidth": 12.471490481413028,
+            "n": 20567
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.24527137160686413,
+            "observed_coverage": 0.5434920017503768,
+            "mean_halfwidth": 1.560691727239038,
+            "n": 20567
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.3740357855262063,
+            "observed_coverage": 0.7541206787572324,
+            "mean_halfwidth": 2.3800354372290236,
+            "n": 20567
+          },
+          {
+            "level": 0.9,
+            "multiplier": 0.6688028266554958,
+            "observed_coverage": 0.9506977196479798,
+            "mean_halfwidth": 4.255674161550232,
+            "n": 20567
+          },
+          {
+            "level": 0.95,
+            "multiplier": 0.8454363609347247,
+            "observed_coverage": 0.9803082608061457,
+            "mean_halfwidth": 5.379614937420507,
+            "n": 20567
+          }
+        ],
+        "ece_uncalibrated": 0.30900164545656933,
+        "ece_calibrated": 0.0388703927855814
+      },
+      "normal": {
+        "n_columns": 20910,
+        "n_scans": 42,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.9609756097560975,
+            "mean_halfwidth": 3.6008359385379074,
+            "n": 20910
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.9923959827833573,
+            "mean_halfwidth": 5.309020165514764,
+            "n": 20910
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.9993782879005261,
+            "mean_halfwidth": 8.781227664081548,
+            "n": 20910
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 1.0,
+            "mean_halfwidth": 10.46347813546475,
+            "n": 20910
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.22798687253404085,
+            "observed_coverage": 0.547584887613582,
+            "mean_halfwidth": 1.2171323936305598,
+            "n": 20910
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.3459463145311311,
+            "observed_coverage": 0.7450023912003826,
+            "mean_halfwidth": 1.8468715377903042,
+            "n": 20910
+          },
+          {
+            "level": 0.9,
+            "multiplier": 0.6127171080118576,
+            "observed_coverage": 0.9413677666188427,
+            "mean_halfwidth": 3.2710560568855427,
+            "n": 20910
+          },
+          {
+            "level": 0.95,
+            "multiplier": 0.7458520640234259,
+            "observed_coverage": 0.9767575322812052,
+            "mean_halfwidth": 3.9818113117174394,
+            "n": 20910
+          }
+        ],
+        "ece_uncalibrated": 0.3236980543180044,
+        "ece_calibrated": 0.04093735054997608
+      }
+    },
+    "lower_boundary": {
+      "all": {
+        "n_columns": 41477,
+        "n_scans": 84,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.40251223569689226,
+            "mean_halfwidth": 5.201739738760795,
+            "n": 41477
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.5662656411987367,
+            "mean_halfwidth": 7.669369457597083,
+            "n": 41477
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.8109554692962365,
+            "mean_halfwidth": 12.685293547116089,
+            "n": 41477
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.8844419798924705,
+            "mean_halfwidth": 15.115459563259607,
+            "n": 41477
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6475929117425631,
+            "observed_coverage": 0.38763652144562044,
+            "mean_halfwidth": 4.99430833837254,
+            "n": 41477
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.985068254726301,
+            "observed_coverage": 0.5616847891602575,
+            "mean_halfwidth": 7.596955601640969,
+            "n": 41477
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.8120940384182584,
+            "observed_coverage": 0.8544012344190757,
+            "mean_halfwidth": 13.9750701434255,
+            "n": 41477
+          },
+          {
+            "level": 0.95,
+            "multiplier": 2.2887893695627457,
+            "observed_coverage": 0.9314559876558093,
+            "mean_halfwidth": 17.651397391653,
+            "n": 41477
+          }
+        ],
+        "ece_uncalibrated": 0.07697925165881407,
+        "ece_calibrated": 0.07808068644258138
+      },
+      "abnormal": {
+        "n_columns": 20567,
+        "n_scans": 42,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.3842563329605679,
+            "mean_halfwidth": 4.887963253976479,
+            "n": 20567
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.546117566976224,
+            "mean_halfwidth": 7.20674196953089,
+            "n": 20567
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.7976369912967375,
+            "mean_halfwidth": 11.920098243704103,
+            "n": 20567
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.8790295132980016,
+            "mean_halfwidth": 14.203673121443323,
+            "n": 20567
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.5412223945798628,
+            "observed_coverage": 0.3100598045412554,
+            "mean_halfwidth": 3.9221873663261135,
+            "n": 20567
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.8101037891293331,
+            "observed_coverage": 0.4589876987407011,
+            "mean_halfwidth": 5.87074533307607,
+            "n": 20567
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.4002348141508951,
+            "observed_coverage": 0.7175572519083969,
+            "mean_halfwidth": 10.147368905929923,
+            "n": 20567
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.7382965573316547,
+            "observed_coverage": 0.8248650751203384,
+            "mean_halfwidth": 12.597270298445386,
+            "n": 20567
+          }
+        ],
+        "ece_uncalibrated": 0.09323187630670492,
+        "ece_calibrated": 0.15503757936193138
+      },
+      "normal": {
+        "n_columns": 20910,
+        "n_scans": 42,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.42046867527498805,
+            "mean_halfwidth": 5.510369148734924,
+            "n": 20910
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.5860832137733142,
+            "mean_halfwidth": 8.124408173381752,
+            "n": 20910
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.8240554758488762,
+            "mean_halfwidth": 13.437936866354457,
+            "n": 20910
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.889765662362506,
+            "mean_halfwidth": 16.012289393428688,
+            "n": 20910
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.7999585841554757,
+            "observed_coverage": 0.48847441415590626,
+            "mean_halfwidth": 6.535410065333874,
+            "n": 20910
+          },
+          {
+            "level": 0.68,
+            "multiplier": 1.207434400944306,
+            "observed_coverage": 0.6780966044954567,
+            "mean_halfwidth": 9.864359347418574,
+            "n": 20910
+          },
+          {
+            "level": 0.9,
+            "multiplier": 2.1399460234651126,
+            "observed_coverage": 0.9188426590148254,
+            "mean_halfwidth": 17.482686051540593,
+            "n": 20910
+          },
+          {
+            "level": 0.95,
+            "multiplier": 2.6195924921904323,
+            "observed_coverage": 0.9642276422764228,
+            "mean_halfwidth": 21.401246864058933,
+            "n": 20910
+          }
+        ],
+        "ece_uncalibrated": 0.06099322912733773,
+        "ece_calibrated": 0.011588512169951425
+      }
+    },
+    "thickness": {
+      "all": {
+        "n_columns": 41477,
+        "n_scans": 84,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.41881042505484967,
+            "mean_halfwidth": 5.830307068689439,
+            "n": 41477
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.5905441570026762,
+            "mean_halfwidth": 8.59611999189939,
+            "n": 41477
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.8231550015671336,
+            "mean_halfwidth": 14.218157837664267,
+            "n": 41477
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.8827060780673627,
+            "mean_halfwidth": 16.941980022852217,
+            "n": 41477
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.5811711992678221,
+            "observed_coverage": 0.3644911637775152,
+            "mean_halfwidth": 5.023659070022717,
+            "n": 41477
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.8894365585855073,
+            "observed_coverage": 0.5381777852785882,
+            "mean_halfwidth": 7.688312910854991,
+            "n": 41477
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.5724248669164929,
+            "observed_coverage": 0.8047592641705041,
+            "mean_halfwidth": 13.592081738678937,
+            "n": 41477
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.9470535518869934,
+            "observed_coverage": 0.8807290787665453,
+            "mean_halfwidth": 16.83038190481544,
+            "n": 41477
+          }
+        ],
+        "ece_uncalibrated": 0.06380644694650046,
+        "ece_calibrated": 0.10039869908877845
+      },
+      "abnormal": {
+        "n_columns": 20567,
+        "n_scans": 42,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.3422472893470122,
+            "mean_halfwidth": 4.849326842378593,
+            "n": 20567
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.49637769241989593,
+            "mean_halfwidth": 7.149777005895365,
+            "n": 20567
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.7405552584236884,
+            "mean_halfwidth": 11.825877031697994,
+            "n": 20567
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.8145573005299752,
+            "mean_halfwidth": 14.091401622578134,
+            "n": 20567
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.5109544474653244,
+            "observed_coverage": 0.2619244420673895,
+            "mean_halfwidth": 3.673569711928166,
+            "n": 20567
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.7686805882157101,
+            "observed_coverage": 0.39154956969903243,
+            "mean_halfwidth": 5.526523432811483,
+            "n": 20567
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.3394126012580463,
+            "observed_coverage": 0.6371371614722614,
+            "mean_halfwidth": 9.629871289241294,
+            "n": 20567
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.6372427299022858,
+            "observed_coverage": 0.7386103952934312,
+            "mean_halfwidth": 11.771157553241174,
+            "n": 20567
+          }
+        ],
+        "ece_uncalibrated": 0.12838271835566942,
+        "ece_calibrated": 0.20117433906641452
+      },
+      "normal": {
+        "n_columns": 20910,
+        "n_scans": 42,
+        "uncalibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6744897501960817,
+            "observed_coverage": 0.49411764705882355,
+            "mean_halfwidth": 6.795195653793945,
+            "n": 20910
+          },
+          {
+            "level": 0.68,
+            "multiplier": 0.9944578832097535,
+            "observed_coverage": 0.6831659493065518,
+            "mean_halfwidth": 10.018737696019178,
+            "n": 20910
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.6448536269514722,
+            "observed_coverage": 0.9043998087039694,
+            "mean_halfwidth": 16.571196543370068,
+            "n": 20910
+          },
+          {
+            "level": 0.95,
+            "multiplier": 1.959963984540054,
+            "observed_coverage": 0.9497369679579148,
+            "mean_halfwidth": 19.745798576579475,
+            "n": 20910
+          }
+        ],
+        "calibrated": [
+          {
+            "level": 0.5,
+            "multiplier": 0.6756241473905621,
+            "observed_coverage": 0.49464371114299377,
+            "mean_halfwidth": 6.80662422017819,
+            "n": 20910
+          },
+          {
+            "level": 0.68,
+            "multiplier": 1.0247285557160222,
+            "observed_coverage": 0.6977044476327117,
+            "mean_halfwidth": 10.323701770257843,
+            "n": 20910
+          },
+          {
+            "level": 0.9,
+            "multiplier": 1.7853440948770591,
+            "observed_coverage": 0.9290769966523195,
+            "mean_halfwidth": 17.98657789908362,
+            "n": 20910
+          },
+          {
+            "level": 0.95,
+            "multiplier": 2.1714002784031066,
+            "observed_coverage": 0.966571018651363,
+            "mean_halfwidth": 21.875928774547397,
+            "n": 20910
+          }
+        ],
+        "ece_uncalibrated": 0.004485388507135842,
+        "ece_calibrated": 0.01421883259080269
+      }
+    }
+  },
+  "per_eye_thickness_px": [
+    {
+      "eye": "patient_01_LE",
+      "class": "abnormal",
+      "n_scans": 21,
+      "mean_thickness_px": 90.16069575718471,
+      "calibrated_95_halfwidth_px": 2.5977427030332607
+    },
+    {
+      "eye": "patient_01_RE",
+      "class": "abnormal",
+      "n_scans": 21,
+      "mean_thickness_px": 89.6885116213844,
+      "calibrated_95_halfwidth_px": 3.4334002847593794
+    },
+    {
+      "eye": "patient_04_LE",
+      "class": "normal",
+      "n_scans": 21,
+      "mean_thickness_px": 90.41296913510277,
+      "calibrated_95_halfwidth_px": 5.179711389366865
+    },
+    {
+      "eye": "patient_04_RE",
+      "class": "normal",
+      "n_scans": 21,
+      "mean_thickness_px": 93.75322977701823,
+      "calibrated_95_halfwidth_px": 5.08818391805513
+    }
+  ],
+  "_redaction_note": "Patient/eye identifiers in this file were replaced with stable pseudonyms (patient_NN) before public release. No numeric result was altered. The real-ID mapping is NOT stored in this repository."
+}

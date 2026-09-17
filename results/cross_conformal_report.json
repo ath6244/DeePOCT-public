@@ -1,0 +1,456 @@
+{
+  "mode": "cross",
+  "path": "val_only_lopo",
+  "group_col": "fold",
+  "n_patients": 6,
+  "patients": [
+    "patient_00",
+    "patient_01",
+    "patient_02",
+    "patient_03",
+    "patient_04",
+    "patient_05"
+  ],
+  "per_class": true,
+  "pixel_to_micron": null,
+  "targets": {
+    "upper_boundary": {
+      "all": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5009775327713856,
+            "mean_halfwidth": 1.254924771264297,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.436299152357776,
+            "ci_hi": 0.5532509581436638
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6806432486138265,
+            "mean_halfwidth": 1.8894985897912453,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.6126671369480874,
+            "ci_hi": 0.7377688422656927
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8931604756257813,
+            "mean_halfwidth": 3.3133254435195023,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.8410657782524489,
+            "ci_hi": 0.934185542541216
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.944456908432422,
+            "mean_halfwidth": 4.2178107703778105,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.9119443257305999,
+            "ci_hi": 0.9716326349646517
+          }
+        ],
+        "ece": 0.002155379635268101,
+        "n_patients": 6
+      },
+      "abnormal": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5000558793007105,
+            "mean_halfwidth": 1.3893154191574761,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.4830949900558765,
+            "ci_hi": 0.5094510739856802
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6801947792767622,
+            "mean_halfwidth": 2.0921883940866146,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.6592480348517852,
+            "ci_hi": 0.7081246657266494
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8990181208589447,
+            "mean_halfwidth": 3.719800569871334,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.8756085918854415,
+            "ci_hi": 0.9312490883454076
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9495968707591602,
+            "mean_halfwidth": 4.867221999346554,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.9260143198090692,
+            "ci_hi": 0.9748626440414255
+          }
+        ],
+        "ece": 0.0002646914244180055,
+        "n_patients": 3
+      },
+      "normal": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5019060946774115,
+            "mean_halfwidth": 1.119526771766327,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.360781309842972,
+            "ci_hi": 0.6053212900692161
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6810950795412505,
+            "mean_halfwidth": 1.6852894840948303,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.529538490999617,
+            "ci_hi": 0.787001129056011
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.887258923257572,
+            "mean_halfwidth": 2.9038035026961504,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.7779107621600919,
+            "ci_hi": 0.960237592656227
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9392784185043993,
+            "mean_halfwidth": 3.5635317514703613,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.8690157027958637,
+            "ci_hi": 0.982769623484365
+          }
+        ],
+        "ece": 0.00420805427650098,
+        "n_patients": 3
+      }
+    },
+    "lower_boundary": {
+      "all": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5050479151309253,
+            "mean_halfwidth": 5.566466807218029,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.4312706642353829,
+            "ci_hi": 0.5913946776790981
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6791048363834492,
+            "mean_halfwidth": 8.237065231352046,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.6007633981812834,
+            "ci_hi": 0.7653772176952729
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8907006185699177,
+            "mean_halfwidth": 13.74356195422249,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.8242107819329771,
+            "ci_hi": 0.947667651610957
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9385115861671101,
+            "mean_halfwidth": 16.674253814173483,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.8900749911109674,
+            "ci_hi": 0.9787324475613051
+          }
+        ],
+        "ece": 0.004034030623175026,
+        "n_patients": 6
+      },
+      "abnormal": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5019877065538437,
+            "mean_halfwidth": 4.078730863929144,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.4310789128215102,
+            "ci_hi": 0.6115513126491646
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6801309172188074,
+            "mean_halfwidth": 6.040857052227491,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.5946905236543978,
+            "ci_hi": 0.7695465393794749
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8960804661930231,
+            "mean_halfwidth": 9.9399302283508,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.8225798609422862,
+            "ci_hi": 0.9427207637231504
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9441845613474894,
+            "mean_halfwidth": 12.00321972440149,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.8891428015753391,
+            "ci_hi": 0.980253811914007
+          }
+        ],
+        "ece": 0.00218559490448002,
+        "n_patients": 3
+      },
+      "normal": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5081310621049075,
+            "mean_halfwidth": 7.0653543686698645,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.39080064797997155,
+            "ci_hi": 0.6755553427805439
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6780710643568338,
+            "mean_halfwidth": 10.449735522002799,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.530410878209219,
+            "ci_hi": 0.8505840674071237
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8852804452379803,
+            "mean_halfwidth": 17.575704551818934,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.7484659565067989,
+            "ci_hi": 0.9754883186518575
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9327960880824848,
+            "mean_halfwidth": 21.380300561151383,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.8346178390849738,
+            "ci_hi": 0.9860206817311375
+          }
+        ],
+        "ece": 0.006222935614382175,
+        "n_patients": 3
+      }
+    },
+    "thickness": {
+      "all": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5057850709913144,
+            "mean_halfwidth": 5.708314078853173,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.4219479357298914,
+            "ci_hi": 0.5900140519061983
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6825181885195988,
+            "mean_halfwidth": 8.51692582280344,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.5890715024514368,
+            "ci_hi": 0.7762858060945017
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8885532514983494,
+            "mean_halfwidth": 14.362414019818734,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.8174216252865399,
+            "ci_hi": 0.9558302201732771
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9354187365789558,
+            "mean_halfwidth": 17.490518688933324,
+            "n_columns": 124804,
+            "n_patients": 6,
+            "ci_lo": 0.8857042022565396,
+            "ci_hi": 0.9828799286862673
+          }
+        ],
+        "ece": 0.005082917382877405,
+        "n_patients": 6
+      },
+      "abnormal": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5027061547058354,
+            "mean_halfwidth": 4.0553438678547655,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.3764768804395391,
+            "ci_hi": 0.6045346062052506
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.6843937095872914,
+            "mean_halfwidth": 6.194684454724688,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.5320659308601157,
+            "ci_hi": 0.7690214797136038
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8887682605571965,
+            "mean_halfwidth": 10.664488036607075,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.7613166723391841,
+            "ci_hi": 0.9599522673031027
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9378941486389399,
+            "mean_halfwidth": 13.102008460585687,
+            "n_columns": 62635,
+            "n_patients": 3,
+            "ci_lo": 0.8469878932270142,
+            "ci_hi": 0.986252983293556
+          }
+        ],
+        "ece": 0.004344720666518213,
+        "n_patients": 3
+      },
+      "normal": {
+        "coverage": [
+          {
+            "level": 0.5,
+            "observed_coverage": 0.5088870659010117,
+            "mean_halfwidth": 7.373674454054405,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.40233665504884397,
+            "ci_hi": 0.6721562619685945
+          },
+          {
+            "level": 0.68,
+            "observed_coverage": 0.680628609113867,
+            "mean_halfwidth": 10.856574009031505,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.5397378626478818,
+            "ci_hi": 0.8536959019532746
+          },
+          {
+            "level": 0.9,
+            "observed_coverage": 0.8883366307966993,
+            "mean_halfwidth": 18.08805853651455,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.7591183545235874,
+            "ci_hi": 0.9740520873228649
+          },
+          {
+            "level": 0.95,
+            "observed_coverage": 0.9329247695796941,
+            "mean_halfwidth": 21.911923861166343,
+            "n_columns": 62169,
+            "n_patients": 3,
+            "ci_lo": 0.8345687496931913,
+            "ci_hi": 0.9854461891995404
+          }
+        ],
+        "ece": 0.006128117669070137,
+        "n_patients": 3
+      }
+    }
+  },
+  "sigma_error_correlation": {
+    "upper_boundary": {
+      "all": {
+        "pearson_r": 0.30944774460621116,
+        "spearman_r": 0.1337158333031415,
+        "n": 124804
+      },
+      "abnormal": {
+        "pearson_r": 0.23296818705289707,
+        "spearman_r": 0.1386078675476139,
+        "n": 62635
+      },
+      "normal": {
+        "pearson_r": 0.41332451339219733,
+        "spearman_r": 0.10675464702177148,
+        "n": 62169
+      }
+    },
+    "lower_boundary": {
+      "all": {
+        "pearson_r": 0.3484097299563821,
+        "spearman_r": 0.4168118776606937,
+        "n": 124804
+      },
+      "abnormal": {
+        "pearson_r": 0.32143764669941,
+        "spearman_r": 0.34295534321705795,
+        "n": 62635
+      },
+      "normal": {
+        "pearson_r": 0.2731627757302246,
+        "spearman_r": 0.3275622469509957,
+        "n": 62169
+      }
+    },
+    "thickness": {
+      "all": {
+        "pearson_r": 0.35881587439593005,
+        "spearman_r": 0.42179757025920617,
+        "n": 124804
+      },
+      "abnormal": {
+        "pearson_r": 0.3065024966908019,
+        "spearman_r": 0.35824757976224003,
+        "n": 62635
+      },
+      "normal": {
+        "pearson_r": 0.29450480293604736,
+        "spearman_r": 0.30931384365282055,
+        "n": 62169
+      }
+    }
+  },
+  "_redaction_note": "Patient/eye identifiers in this file were replaced with stable pseudonyms (patient_NN) before public release. No numeric result was altered. The real-ID mapping is NOT stored in this repository."
+}

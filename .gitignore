@@ -1,0 +1,93 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Secrets / local configuration — never commit
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ---------------------------------------------------------------------------
+# Data — patient scans and anything derived from them stay OUT of this repo
+# ---------------------------------------------------------------------------
+data/
+datasets/
+raw/
+raw_folds/
+*.tif
+*.tiff
+*.dcm
+*.nii
+*.nii.gz
+# Manifests embed absolute paths and patient/eye identifiers; regenerate locally
+# with deepoct.datasets.build_sdoct_manifests.
+*manifest*.csv
+
+# ---------------------------------------------------------------------------
+# Model weights & training artifacts
+# ---------------------------------------------------------------------------
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+checkpoints/
+checkpoints_*/
+runs/
+lightning_logs/
+wandb/
+mlruns/
+
+# ---------------------------------------------------------------------------
+# Logs & scratch output
+# ---------------------------------------------------------------------------
+*.log
+*.out
+*.err
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.zip
+tmp/
+scratch/
+
+# ---------------------------------------------------------------------------
+# Tooling caches
+# ---------------------------------------------------------------------------
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Editor / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
